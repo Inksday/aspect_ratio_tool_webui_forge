@@ -136,9 +136,7 @@ class AspectRatioTool(scripts.Script):
 
     def ui(self, is_img2img):
         suffix = "_img2img" if is_img2img else ""
-        tab = "img2img" if is_img2img else "txt2img"
-        with gr.Tab(tab):
-            return self.build_ui(suffix)
+        return self.build_ui(suffix)
 
     def process_before_every_sampling(self, p, height, aspect_ratio, width, *args, **kwargs):
         try:
