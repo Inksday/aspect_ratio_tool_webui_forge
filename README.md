@@ -1,5 +1,7 @@
 # Aspect Ratio Tool for SD Web UI Forge
 
+![aspectratiotool](https://github.com/user-attachments/assets/b5a74660-cb8c-4c35-a63e-5f1c876e4758)
+
 This Gradio 4 extension enhances the txt2img and img2img tabs in Stable Diffusion WebUI Forge by providing tools to calculate and adjust image dimensions based on aspect ratios and scaling factors.
 
 ## Features
