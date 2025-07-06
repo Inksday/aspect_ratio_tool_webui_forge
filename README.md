@@ -36,6 +36,8 @@ https://github.com/Inksday/aspect_ratio_tool_webui_forge
 
 - **Aspect Ratio Calculation**: Enter a height value, select an aspect ratio, and click `Calculate Width` to determine the corresponding width.
 
+- - **Change height to nearest multiple of 16**: If your height is not a multiple of 16 and you wish it to be. Press the *16 button.
+
 - **Preset Aspect Ratios**: Click on a preset aspect ratio button to automatically set the aspect ratio.
 
 - **Copy Height**: Click `Copy Height` to copy the current height from the txt2img or img2img tabs.
