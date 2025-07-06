@@ -22,7 +22,9 @@ This Gradio 4 extension enhances the txt2img and img2img tabs in Stable Diffusio
 
 3. Paste the following URL into the input field:
 
+```plaintext
 https://github.com/Inksday/aspect_ratio_tool_webui_forge
+```
 
 4. Click `Install`.
 
