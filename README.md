@@ -1,41 +1,45 @@
-Aspect Ratio Calculator for SD Web UI Forge
+# Aspect Ratio Tool for SD Web UI Forge
 
 This Gradio 4 extension enhances the txt2img and img2img tabs in Stable Diffusion WebUI Forge by providing tools to calculate and adjust image dimensions based on aspect ratios and scaling factors.
-Features
 
-    Aspect Ratio Calculation: Input a desired height, select an aspect ratio, and calculate the corresponding width.
+## Features
 
-    Preset Aspect Ratios: Choose from popular aspect ratios like 16:9, 4:3, 1:1, and more.
+- **Aspect Ratio Calculation**: Input a desired height, select an aspect ratio, and calculate the corresponding width.
 
-    Copy Height: Quickly copy the current height from the txt2img or img2img tabs.
+- **Preset Aspect Ratios**: Choose from popular aspect ratios like 16:9, 4:3, 1:1, and more.
 
-    Lock Width to 16px Increments: Ensure the calculated width is a multiple of 16 pixels for compatibility with certain models.
+- **Copy Height**: Quickly copy the current height from the txt2img or img2img tabs.
 
-    Scaling: Apply a scaling factor to both width and height based on an input number.
+- **Lock Width to 16px Increments**: Ensure the calculated width is a multiple of 16 pixels for compatibility with certain models.
 
-Installation
+- **Scaling**: Apply a scaling factor to both width and height based on an input number.
 
-    Navigate to the Extensions tab in Stable Diffusion WebUI Forge.
+## Installation
 
-    Click on Install from URL.
+1. Navigate to the `Extensions` tab in Stable Diffusion WebUI Forge.
 
-    Paste the following URL into the input field:
+2. Click on `Install from URL`.
 
-    https://github.com/yourusername/your-repository
+3. Paste the following URL into the input field:
 
-    Click Install.
-    github.com+2huggingface.co+2stable-diffusion-art.com+2
+https://github.com/Inksday/aspect_ratio_tool_webui_forge
 
-    After installation, click Apply and Restart UI.
+4. Click `Install`.
 
-Usage
+5. After installation, click `Apply and Restart UI`.
 
-    Aspect Ratio Calculation: Enter a height value, select an aspect ratio, and click Calculate Width to determine the corresponding width.
+## Usage
 
-    Preset Aspect Ratios: Click on a preset aspect ratio button to automatically set the aspect ratio.
+- **Aspect Ratio Calculation**: Enter a height value, select an aspect ratio, and click `Calculate Width` to determine the corresponding width.
 
-    Copy Height: Click Copy Height to copy the current height from the txt2img or img2img tabs.
+- **Preset Aspect Ratios**: Click on a preset aspect ratio button to automatically set the aspect ratio.
 
-    Lock Width to 16px Increments: Check the Lock Width to 16px checkbox to ensure the calculated width is a multiple of 16 pixels.
+- **Copy Height**: Click `Copy Height` to copy the current height from the txt2img or img2img tabs.
 
-    Scaling: Enter a scaling factor and click Apply Scaling to adjust both width and height accordingly.
+- **Lock Width to 16px Increments**: Check the `Lock Width to 16px` checkbox to ensure the calculated width is a multiple of 16 pixels.
+
+- **Scaling**: Enter a scaling factor and click `Apply Scaling` to adjust both width and height accordingly.
+
+## License
+
+This extension is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
